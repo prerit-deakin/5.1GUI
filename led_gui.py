@@ -7,9 +7,9 @@ red = 17  # GPIO pin for Red LED
 green = 27  # GPIO pin for Green LED
 blue = 22  # GPIO pin for Blue LED
 
-GPIO.setup(red_pin, GPIO.OUT)
-GPIO.setup(green_pin, GPIO.OUT)
-GPIO.setup(blue_pin, GPIO.OUT)
+GPIO.setup(red, GPIO.OUT)
+GPIO.setup(green, GPIO.OUT)
+GPIO.setup(blue, GPIO.OUT)
 
 # Function to turn on the selected LED
 def turn_on_led(color):
